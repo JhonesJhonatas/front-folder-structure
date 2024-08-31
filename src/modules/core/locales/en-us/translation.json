@@ -1,3 +1,14 @@
 {
-  "hello": "Hello Wolrd!"
+  "navBar":{
+    "title": "FrontEnd Folder Architeture",
+    "items": {
+      "home":"Home",
+      "explanation":"Explanation",
+      "discution":"Discutions"
+    }
+  },
+  "home": {
+    "title": "FrontEnd Folder Architeture",
+    "description": "This project is a example of a scalable FrontEnd Folder Architeture."
+  }
 }

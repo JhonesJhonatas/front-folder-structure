@@ -1,3 +1,14 @@
 {
-  "hello": "Olá Mundo"
+  "navBar":{
+    "title": "Arquitetura de Pastas FrontEnd",
+    "items": {
+      "home":"Início",
+      "explanation":"Explicação",
+      "discution":"Discussões"
+    }
+  },
+  "home": {
+    "title": "Arquitetura de Pastas FrontEnd",
+    "description": "Este projeto é um exemplo de uma arquitetura de FrontEnd escalável."
+  }
 }
