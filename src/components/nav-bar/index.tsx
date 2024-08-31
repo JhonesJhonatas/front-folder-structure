@@ -1,6 +1,7 @@
 import { GoComment, GoFileDirectory, GoHome, GoInfo } from 'react-icons/go'
 
 import { NavItem, NavItems } from './nav-items';
+import { LanguageSwitch } from './language-switch';
 
 const navItems: NavItem[] = [
   { label: 'Home', href: '/', icon: GoHome },
@@ -16,7 +17,10 @@ export function NavBar() {
           <GoFileDirectory size={24} />
           <span className="font-bold" >FrontEnd Folder Architeture</span>
         </div>
-       <NavItems items={navItems} />
+        <div className='flex items-center gap-2'>
+          <NavItems items={navItems} />
+          <LanguageSwitch />
+        </div>
       </div>
     </header>
   );
