@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { Sidebar } from "./components/sidebar"
 
 const sidebarItems = [
@@ -24,11 +25,12 @@ const sidebarItems = [
 ]
 
 export function Explanation() {
+  const { t } = useTranslation()
 
   return (
     <div className="flex gap-8">
       <Sidebar items={sidebarItems} />
-      <h1>Explanation</h1>
+      <h1>{t('hello')}</h1>
     </div>
   )
 }
