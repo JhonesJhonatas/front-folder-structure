@@ -1,6 +1,6 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from 'react-router-dom'
 
-import { NavBar } from "@/components";
+import { NavBar } from '@/components'
 
 export function DefaultLayout() {
   return (
@@ -10,5 +10,5 @@ export function DefaultLayout() {
         <Outlet />
       </main>
     </div>
-  );
+  )
 }

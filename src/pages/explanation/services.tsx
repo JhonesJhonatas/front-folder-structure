@@ -1,4 +1,4 @@
-export function Services(){
+export function Services() {
   return (
     <div>
       <span>Services</span>

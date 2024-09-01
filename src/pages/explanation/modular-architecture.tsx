@@ -1,4 +1,4 @@
-export function ModularArchitecture(){
+export function ModularArchitecture() {
   return (
     <div>
       <span>ModualrArchiteture</span>

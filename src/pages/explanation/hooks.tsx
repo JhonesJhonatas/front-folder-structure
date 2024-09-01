@@ -1,4 +1,4 @@
-export function Hooks(){
+export function Hooks() {
   return (
     <div>
       <span>Hooks</span>

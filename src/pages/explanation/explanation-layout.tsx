@@ -1,31 +1,30 @@
-import { Sidebar } from "./components/sidebar"
+import { Sidebar } from './components/sidebar'
 import { Outlet } from 'react-router-dom'
 
 const sidebarItems = [
   {
     label: 'Motivação',
-    path: '/explanation/'
+    path: '/explanation/',
   },
   {
     label: 'Arquitetura Modular',
-    path: '/explanation/modular-architecture'
+    path: '/explanation/modular-architecture',
   },
   {
     label: 'Services',
-    path: '/explanation/services'
+    path: '/explanation/services',
   },
   {
     label: 'Hooks',
-    path: '/explanation/hooks'
+    path: '/explanation/hooks',
   },
   {
     label: 'Páginas',
-    path: '/explanation/pages'
-  }
+    path: '/explanation/pages',
+  },
 ]
 
 export function ExplanationLayout() {
-
   return (
     <div className="flex gap-8">
       <Sidebar items={sidebarItems} />

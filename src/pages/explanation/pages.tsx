@@ -1,4 +1,4 @@
-export function Pages(){
+export function Pages() {
   return (
     <div>
       <span>Pages</span>
