@@ -1,36 +1,35 @@
-import { useTranslation } from 'react-i18next'
 import { Sidebar } from "./components/sidebar"
+import { Outlet } from 'react-router-dom'
 
 const sidebarItems = [
   {
     label: 'Motivação',
-    id: 'motivation'
+    path: '/explanation/'
   },
   {
     label: 'Arquitetura Modular',
-    id: 'modular-architecture'
+    path: '/explanation/modular-architecture'
   },
   {
     label: 'Services',
-    id: 'services'
+    path: '/explanation/services'
   },
   {
     label: 'Hooks',
-    id: 'hooks'
+    path: '/explanation/hooks'
   },
   {
     label: 'Páginas',
-    id: 'pages'
+    path: '/explanation/pages'
   }
 ]
 
-export function Explanation() {
-  const { t } = useTranslation()
+export function ExplanationLayout() {
 
   return (
     <div className="flex gap-8">
       <Sidebar items={sidebarItems} />
-      <h1>{t('hello')}</h1>
+      <Outlet />
     </div>
   )
 }

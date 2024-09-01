@@ -2,14 +2,20 @@ import { Route, Routes } from "react-router-dom";
 
 import { DefaultLayout } from "@/modules/core/layouts/default-layout";
 
-import { Home, Explanation, Discussion } from '@/pages'
+import { Home, ExplanationLayout, Discussion, Motivation, ModularArchitecture, Services, Hooks, Pages } from '@/pages'
 
 export function Router() {
   return (
     <Routes>
       <Route path="/" element={<DefaultLayout />}>
         <Route path="/" element={<Home />} />
-        <Route path="/explanation" element={<Explanation />} />
+        <Route path="/explanation" element={<ExplanationLayout />}>
+          <Route path="/explanation" element={<Motivation />} />
+          <Route path="/explanation/modular-architecture" element={<ModularArchitecture />} />
+          <Route path="/explanation/services" element={<Services />} />
+          <Route path="/explanation/hooks" element={<Hooks />} />
+          <Route path="/explanation/pages" element={<Pages />} />
+        </Route>
         <Route path="/discussion" element={<Discussion />} />
       </Route>
     </Routes>
