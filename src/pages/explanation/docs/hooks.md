@@ -1,0 +1,3 @@
+## Hooks
+
+Os hooks servem como intermediários entre os services e os componentes de interface. Eles são responsáveis por invocar os services, gerenciar estados como loading e errors, e aplicar regras de negócio. Essa separação de responsabilidades facilita o teste de unidades e a reutilização de lógica em diferentes partes do sistema. Além disso, os hooks são projetados para serem intuitivos, permitindo que os desenvolvedores se concentrem mais na lógica da aplicação do que na gestão do estado ou na manipulação direta de respostas de API.

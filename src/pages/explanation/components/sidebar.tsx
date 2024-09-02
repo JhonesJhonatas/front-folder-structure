@@ -47,7 +47,7 @@ export function Sidebar() {
   }, [t])
 
   return (
-    <aside className="flex flex-col gap-2 bg-zinc-800 p-4 rounded">
+    <aside className="flex flex-col gap-2 bg-zinc-800 p-4 rounded h-full overflow-auto">
       {sidebarItems.map((item, index) => {
         return (
           <NavLink

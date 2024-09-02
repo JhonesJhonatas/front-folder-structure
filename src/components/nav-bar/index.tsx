@@ -13,7 +13,7 @@ export function NavBar() {
       { label: t('navBar.items.home'), href: '/', icon: GoHome },
       {
         label: t('navBar.items.explanation'),
-        href: '/explanation/overview',
+        href: '/explanation',
         icon: GoInfo,
       },
       {

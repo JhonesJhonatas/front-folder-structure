@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { tv } from 'tailwind-variants'
 
 const navItemVariants = tv({
@@ -22,8 +22,6 @@ interface NavItemsProps {
 }
 
 export function NavItems({ items }: NavItemsProps) {
-  const { pathname } = useLocation()
-
   return (
     <div className="flex items-center gap-2">
       {items.map(({ label, href, icon: Icon }, index) => {
@@ -31,7 +29,7 @@ export function NavItems({ items }: NavItemsProps) {
           <NavLink
             key={index}
             to={href}
-            className={navItemVariants({ isActive: pathname === href })}
+            className={({ isActive }) => navItemVariants({ isActive })}
           >
             <Icon size={16} />
             <span className="text-sm">{label}</span>

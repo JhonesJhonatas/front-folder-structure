@@ -1,0 +1,3 @@
+## Services
+
+Os services são a camada responsável por toda a comunicação com o backend. Cada função dentro dos services é projetada para realizar uma operação específica, como buscar dados, enviar formulários ou atualizar registros. A responsabilidade dos services é limitada à execução de chamadas HTTP e ao tratamento básico de respostas, deixando a lógica de negócios e manipulação de estado para os hooks.
