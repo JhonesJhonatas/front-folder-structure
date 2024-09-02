@@ -5,7 +5,7 @@ export function ExplanationLayout() {
   return (
     <div className="flex gap-8">
       <Sidebar />
-      <div className="flex-1 h-[calc(100vh-6rem)] overflow-auto">
+      <div className="flex-1 h-[calc(100vh-6rem)] overflow-auto pr-2 pb-4">
         <Outlet />
       </div>
     </div>

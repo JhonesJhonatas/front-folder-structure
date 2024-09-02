@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+::-webkit-scrollbar {
+  @apply w-2 bg-slate-800 rounded-full;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-800 rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-700 rounded-full;
+}}
+
 body {
   @apply bg-zinc-900 text-zinc-50;
 }
