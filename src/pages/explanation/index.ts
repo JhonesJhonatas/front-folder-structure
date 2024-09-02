@@ -1,6 +1,6 @@
 export * from './explanation-layout'
 export * from './hooks'
 export * from './modular-architecture'
-export * from './motivation'
+export * from './overview'
 export * from './pages'
 export * from './services'

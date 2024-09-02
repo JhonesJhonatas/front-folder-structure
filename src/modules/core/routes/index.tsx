@@ -6,11 +6,11 @@ import {
   Home,
   ExplanationLayout,
   Discussion,
-  Motivation,
   ModularArchitecture,
   Services,
   Hooks,
   Pages,
+  Overview,
 } from '@/pages'
 
 export function Router() {
@@ -19,7 +19,7 @@ export function Router() {
       <Route path="/" element={<DefaultLayout />}>
         <Route path="/" element={<Home />} />
         <Route path="/explanation" element={<ExplanationLayout />}>
-          <Route path="/explanation" element={<Motivation />} />
+          <Route path="/explanation/overview" element={<Overview />} />
           <Route
             path="/explanation/modular-architecture"
             element={<ModularArchitecture />}

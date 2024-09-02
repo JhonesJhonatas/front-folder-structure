@@ -10,5 +10,14 @@
   "home": {
     "title": "Arquitetura de Pastas FrontEnd",
     "description": "Este projeto é um exemplo de uma arquitetura de FrontEnd escalável."
+  },
+  "explanation": {
+    "sidebar": {
+      "overview":"Visão Geral",
+      "modularArchitecture":"Arquitetura Modular",
+      "services":"Services",
+      "hooks":"Hooks",
+      "pages":"Páginas"
+    }
   }
 }

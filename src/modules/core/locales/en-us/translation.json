@@ -10,5 +10,14 @@
   "home": {
     "title": "FrontEnd Folder Architeture",
     "description": "This project is a example of a scalable FrontEnd Folder Architeture."
+  },
+  "explanation": {
+    "sidebar": {
+      "overview":"Overview",
+      "modularArchitecture":"Modular Architecture",
+      "services":"Services",
+      "hooks":"Hooks",
+      "pages":"Pages"
+    }
   }
 }
