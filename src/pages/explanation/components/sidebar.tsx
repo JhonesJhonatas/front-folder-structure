@@ -32,6 +32,10 @@ export function Sidebar() {
         path: '/explanation/modular-architecture',
       },
       {
+        label: t('explanation.sidebar.types'),
+        path: '/explanation/types',
+      },
+      {
         label: t('explanation.sidebar.services'),
         path: '/explanation/services',
       },

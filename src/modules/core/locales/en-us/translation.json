@@ -15,6 +15,7 @@
     "sidebar": {
       "overview":"Overview",
       "modularArchitecture":"Modular Architecture",
+      "types":"Types",
       "services":"Services",
       "hooks":"Hooks",
       "pages":"Pages"

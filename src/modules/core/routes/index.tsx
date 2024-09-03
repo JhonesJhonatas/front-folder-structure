@@ -11,6 +11,7 @@ import {
   Hooks,
   Pages,
   Overview,
+  Types,
 } from '@/pages'
 
 export function Router() {
@@ -25,6 +26,7 @@ export function Router() {
             element={<ModularArchitecture />}
           />
           <Route path="/explanation/services" element={<Services />} />
+          <Route path="/explanation/types" element={<Types />} />
           <Route path="/explanation/hooks" element={<Hooks />} />
           <Route path="/explanation/pages" element={<Pages />} />
         </Route>

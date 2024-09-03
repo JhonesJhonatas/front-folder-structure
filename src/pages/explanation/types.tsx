@@ -1,21 +1,21 @@
 import Markdown from 'react-markdown'
 import rehypeHighlight from 'rehype-highlight'
 
-import servicesMD from './docs/services.md'
+import typesMD from './docs/types.md'
 import { PageFooter } from './components/page-footer'
 import { Divider } from '@/components'
 
-export function Services() {
+export function Types() {
   return (
     <div className="flex-1 prose-lg prose-slate">
-      <Markdown rehypePlugins={[rehypeHighlight]}>{servicesMD}</Markdown>
+      <Markdown rehypePlugins={[rehypeHighlight]}>{typesMD}</Markdown>
       <div className="flex flex-col gap-4">
         <Divider />
         <PageFooter
-          backLabel="Tipagens"
-          backPath="/explanation/types"
-          nextLabel="Hooks"
-          nextPath="/explanation/hooks"
+          backLabel="Arquitetura Modular"
+          backPath="/explanation/modular-architecture"
+          nextLabel="Services"
+          nextPath="/explanation/services"
         />
       </div>
     </div>

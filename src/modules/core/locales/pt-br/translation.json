@@ -15,6 +15,7 @@
     "sidebar": {
       "overview":"Visão Geral",
       "modularArchitecture":"Arquitetura Modular",
+      "types":"Tipagens",
       "services":"Services",
       "hooks":"Hooks",
       "pages":"Páginas"

@@ -4,6 +4,7 @@ Este projeto adota uma abordagem moderna e modular para o desenvolvimento de apl
 
 ### Exemplo de estrutura de pastas:
 
+```
 - 📂 my-example-project
     - 📂 assets
       - 📄 your-favicon.tsx
@@ -54,6 +55,7 @@ Este projeto adota uma abordagem moderna e modular para o desenvolvimento de apl
             - 📂 login
               - 📄index.tsx
             - 📄index.ts
+```
 
 ### Breve explicação dos módulos
 

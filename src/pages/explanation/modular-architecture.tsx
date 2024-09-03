@@ -16,8 +16,8 @@ export function ModularArchitecture() {
         <PageFooter
           backLabel="Visão Geral"
           backPath="/explanation/overview"
-          nextLabel="Services"
-          nextPath="/explanation/services"
+          nextLabel="Tipagens"
+          nextPath="/explanation/types"
         />
       </div>
     </div>
