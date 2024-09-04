@@ -1,4 +1,4 @@
-import { GoComment, GoFileDirectory, GoHome, GoInfo } from 'react-icons/go'
+import { GoFileDirectory, GoHome, GoInfo } from 'react-icons/go'
 
 import { NavItem, NavItems } from './nav-items'
 import { LanguageSwitch } from './language-switch'
