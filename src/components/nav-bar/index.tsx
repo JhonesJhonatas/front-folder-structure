@@ -4,6 +4,7 @@ import { NavItem, NavItems } from './nav-items'
 import { LanguageSwitch } from './language-switch'
 import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
+import { FiGithub } from 'react-icons/fi'
 
 export function NavBar() {
   const { t } = useTranslation()
@@ -16,10 +17,17 @@ export function NavBar() {
         href: '/explanation',
         icon: GoInfo,
       },
+      // {
+      //   label: t('navBar.items.discution'),
+      //   href: '/discussion',
+      //   icon: GoComment,
+      //   disabled: true,
+      // },
       {
-        label: t('navBar.items.discution'),
-        href: '/discussion',
-        icon: GoComment,
+        label: t('navBar.items.repository'),
+        href: 'https://github.com/JhonesJhonatas/front-folder-structure',
+        icon: FiGithub,
+        external: true,
       },
     ]
   }, [t])

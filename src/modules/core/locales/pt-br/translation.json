@@ -4,7 +4,8 @@
     "items": {
       "home":"Início",
       "explanation":"Explicação",
-      "discution":"Discussões"
+      "discution":"Discussões",
+      "repository":"Repositório"
     }
   },
   "home": {
